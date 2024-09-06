@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="left">
+            <referenceBlock name="attribute_edit_tabs">
+                <block class="SkiDev\OrderItemAttributes\Block\Adminhtml\Product\Attribute\Edit\Tab\Index" name="skidev_attribute_option_index" as="skidev_attribute_option_index"/>
+
+                <action method="addTab">
+                    <argument name="name" xsi:type="string">skidev_attribute_option_index</argument>
+                    <argument name="block" xsi:type="string">skidev_attribute_option_index</argument>
+                </action>
+            </referenceBlock>
+        </referenceContainer>
+    </body>
+</page>
