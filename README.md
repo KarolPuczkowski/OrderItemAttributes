@@ -69,3 +69,11 @@ The `product_attributes` field stores data in JSON format. For example:
   "custom_options": ["Option 1", "Option 2"]
 }
 ```
+
+## Author
+
+**Author Name**: Karol Puczkowski
+**Email**: puczkowski24@gmail.com
+**github**: [github.com/KarolPuczkowski](https://github.com/KarolPuczkowski)
+
+You can reach out for any questions or contributions to the module.
